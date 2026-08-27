@@ -1,5 +1,4 @@
 package IOT6;
-
 public class binary_ex3 {
 	    public static void main(String[] args) {
 	        int[] sizes = {6, 8, 10, 12, 14};
@@ -16,17 +15,14 @@ public class binary_ex3 {
 	                break;
 	            } 
 	            else if (sizes[mid] < target) {
-	                floor = sizes[mid];    // Possible floor
-	                start = mid + 1;       // Go RIGHT
-
+	                floor = sizes[mid];    
+	                start = mid + 1;      
 	            } 
 	            else {
-
-	                ceil = sizes[mid];     // Possible ceil
-	                end = mid - 1;         // Go LEFT
+	                ceil = sizes[mid];     
+	                end = mid - 1;         
 	            }
 	        }
-
 	        System.out.println("Floor = " + floor);
 	        System.out.println("Ceil = " + ceil);
 	    }

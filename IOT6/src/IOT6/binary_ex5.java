@@ -7,14 +7,11 @@ package IOT6;
 	                        "Rahul", "Rahul", "Rahul"};
 
 	        String target = "Rahul";
-
 	        int first = -1;
 	        int last = -1;
 
 	        int start = 0;
 	        int end = arr.length - 1;
-
-	        // Find first occurrence
 	        while (start <= end) {
 
 	            int mid = (start + end) / 2;
