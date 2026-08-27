@@ -3,7 +3,7 @@ package IOT6;
 
 	    public static void main(String[] args) {
 
-	        String[] arr = {"Aman", "Aman", "Aman", "Bob", "Bob",
+	        String[] arr = {"vijay", "vijay", "vijay", "varun", "varun",
 	                        "Rahul", "Rahul", "Rahul"};
 
 	        String target = "Rahul";
